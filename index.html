@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sostituzione testo</title>
+<script type="text/javascript">
+<!--
+  function testo(data) {
+		var testo = document.getElementById('content').innerHTML = 'Hai premuto il pulsante ' + data;
+    //creo una variabile che riempe al click il marcatore con di content stampando a video una stringa di testo statica + il valore del pulsante cliccato
+	}
+//-->
+</script>
+</head>
+
+<body>
+<input type="button" value="Testo 1" onclick="testo('1')" />
+<input type="button" value="Testo 2" onclick="testo('2')" />
+<p id="content"></p>
+</body>
+</html>
